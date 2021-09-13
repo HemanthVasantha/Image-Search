@@ -42,7 +42,7 @@ function clearGallery() {
 async function CuratedPhotos(pageNumber) {
     // fetching data 
 
-    const data = await fetch(`https://api.pexels.com/v1/curated?page=${pageNumber}`, { 
+    const data = await fetch(`https://api.pexels.com/v1/curated?page=1`, { 
         method: "GET", 
         headers: {
             Accept: "application/json",
